@@ -1,0 +1,16 @@
+Las pantallas antes mostradas corresponden al checkout especificamente:
+- Pantalla 1: /checkout/#/email
+- Pantalla 2: /checkout/#/sipping
+
+La funcion nativa es:
+
+    await vtexjs.checkout.getProfileByEmail("uncorre@correo.com")
+
+ en caso de que no exista se devuelve null en sus campos
+
+ Lo malo de esta funcion es que algunos datos los devuelve con *** por seguridad si se desea eliminar este problema
+ se puede hacer un llamado directo al MasterData por medio de un servicio que apunte al masterdata ().
+
+ Otra forma de resolver el mismo problema de los listados de precios por cliente es usar la funcionalidad nativa de vtex
+ "PriceTables" los cuales se les puedes aplicar directamente a un cluster de cliente, igual se necesitaria mas informacion
+ para saber si esta solucion planteada es valida

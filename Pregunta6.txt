@@ -1,0 +1,4 @@
+Respuesta B
+
+Tambien hay que revisar que el nombre del elemento que se este llamando este correctamente escrito,
+lo mejor es hacer un debug del codigo y ver paso a paso que esta pasando
